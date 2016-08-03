@@ -7,15 +7,17 @@ node-rsa from rzcoder's https://github.com/rzcoder/node-rsa
 and jsbn library from Tom Wu http://www-cs-students.stanford.edu/~tjw/jsbn/
 
 * Pure JavaScript
+* Non-blocking on nodejs
 * Promise based
 * No needed OpenSSL
 * Generating keys
 * Supports long messages for encrypt/decrypt
 * Signing and verifying
-* Non-blocking on nodejs
 
-The code also runs in a browser, but there it *will* block the eventloop!
+The code also runs in a browser, but there it **will block the eventloop**!
 (generating keys might take several seconds)
+
+**[View the full API](http://projects.itsasbreuk.nl/modules/itsa-rsa-threaded/api/classes/ItsaRsaThreaded.html)**
 
 ### Example generating keys:
 
@@ -65,9 +67,6 @@ rsa.verify(PRIVATE_KEY, signedData)
        // verified is either `true` or `false`
    });
 ```
-
-
-[API](http://projects.itsasbreuk.nl/modules/itsa-rsa-threaded/api/classes/ItsaRsaThreaded.html)
 
 ## License
 

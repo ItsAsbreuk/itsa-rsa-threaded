@@ -1,10 +1,12 @@
 [![Build Status](https://travis-ci.org/ItsAsbreuk/itsa-rsa-threaded.svg?branch=master)](https://travis-ci.org/ItsAsbreuk/itsa-rsa-threaded)
 
-Promise-based RSA library which runs in separate threads to avoid blocking the event-loop
+Promise-based RSA utilities which runs in separate threads (child-processes) to avoid blocking the event-loop
 
 Based on:
-node-rsa from rzcoder's https://github.com/rzcoder/node-rsa
-and jsbn library from Tom Wu http://www-cs-students.stanford.edu/~tjw/jsbn/
+
+`node-rsa` from rzcoder's https://github.com/rzcoder/node-rsa
+
+and `jsbn` library from Tom Wu http://www-cs-students.stanford.edu/~tjw/jsbn/
 
 * Pure JavaScript
 * Non-blocking on nodejs

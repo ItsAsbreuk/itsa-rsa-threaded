@@ -1,7 +1,7 @@
 {
   "name": "itsa-rsa-threaded",
-  "version": "0.0.1",
-  "description": "Promise-based RSA library which runs in separate threads to avoid blocking the event-loop",
+  "version": "0.0.2",
+  "description": "Promise-based RSA utilities which runs in separate threads to avoid blocking the event-loop",
   "author": [
     {
       "name": "Marco Asbreuk",
